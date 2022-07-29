@@ -21,21 +21,17 @@ def getSong(request):
 @api_view(['POST'])
 def postData(request):
     # print(request.data['firstName'])
-    created_song = ""
+    
     if request.data['firstName'] == 'juan':
         var1 = song_creator.mel_2
         var2 = song_creator.chord_2
-        created_song = song_creator.create_song(var1, var2)
         
-        return Response(created_song)
+    else:
+        var1 = song_creator.mel_1
+        var2 = song_creator.bass_1
         
 
-    else:
-        # var1 = song_creator.mel_1
-        # var2 = song_creator.bass_1
-        # created_song = song_creator.create_song(var1, var2)
-        return Response('palmito')
-        
-    
+    created_song = song_creator.create_song(var1, var2)    
+    return Response(created_song)
 
     
