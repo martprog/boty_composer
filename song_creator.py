@@ -49,13 +49,13 @@ def create_song(melody, bass):
             b_time += 3
             MyMIDI.addProgramChange(1, 10, 0, 42)
             
-            MyMIDI.addNote(1, 10, cello_note, cello, 3, 80)
-            cello += 3
+            # MyMIDI.addNote(1, 10, cello_note, cello, 3, 80)
+            # cello += 3
 
-            if i == 3 and b_time == 12:
-                cello_note+=4 
-            elif i == 3 and b_time == 24:
-                cello_note += 3   
+            # if i == 3 and b_time == 12:
+            #     cello_note+=4 
+            # elif i == 3 and b_time == 24:
+            #     cello_note += 3   
     today = datetime.now()
     date_string = today.strftime("%Y%m%d%H%M%S")
     # if melody == mel_1 and bass == bass_1:

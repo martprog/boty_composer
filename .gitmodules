@@ -1,0 +1,3 @@
+[submodule "reactapp"]
+	path = reactapp
+	url = https://github.com/martprog/boty_composer.git
