@@ -8,10 +8,6 @@ channel  = 0
 time     = 0    # In beats
 duration = 1    # In beats
 tempo    = 72   # In BPM
-#volume   = 70  # 0-127, as per the MIDI standard
-
-  # two tracks
-
 
 
 mel_1 = [70, 72, 73, 75, 77, 79, 81, 82]

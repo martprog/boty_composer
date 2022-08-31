@@ -10,10 +10,10 @@ import song_creator
 # Create your views here.
 
 
-@api_view(['GET'])
-def getData(request):
-    person = {'name': 'Cebra', 'age': 24}
-    return Response(person)
+# @api_view(['GET'])
+# def getData(request):
+#     person = {'name': 'Cebra', 'age': 24}
+#     return Response(person)
 
 @api_view(['GET'])
 def getSong(request):

@@ -21,7 +21,7 @@ from first_app.views import firstView
 
 
 urlpatterns = [
-    path('juanes/', views.getData),
+    # path('juanes/', views.getData),
     path('postdata/', views.postData),
     # path('getsong/', views.getSong)
 ] 
