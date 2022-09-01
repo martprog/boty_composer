@@ -10,6 +10,7 @@ reactapp/node_modules
 
 # production
 reactapp/build
+secretos.py
 
 # misc
 .DS_Store
